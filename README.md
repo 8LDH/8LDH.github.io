@@ -1,6 +1,6 @@
-# Osemka Website
+# Ósemka Website
 
-Welcome to the Osemka Website repository! This website showcases our organization and provides information about our activities and events.
+Welcome to the Ósemka Website repository! This website showcases our organization and provides information about our activities and events.
 
 ## Table of Contents
 
