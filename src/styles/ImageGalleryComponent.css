@@ -1,0 +1,8 @@
+.modal-image {
+    max-width: 100%;  /* Ensures the image is not wider than the modal */
+    max-height: 80vh; /* Adjusts the image height to be within the viewport */
+    object-fit: contain; /* Maintains the aspect ratio of the image */
+  }
+
+  
+  

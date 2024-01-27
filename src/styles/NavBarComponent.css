@@ -1,0 +1,39 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #12409b; */
+  color: white;
+  padding: 30px;
+  position: sticky;
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 1000;
+}
+
+.navbar {
+  background-color: #061c47; /* Set your desired background color */
+  padding: 20px; /* Increase padding for more spacing */
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar-brand {
+  font-size: 24px; /* Increase the font size for the brand/logo */
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px; /* Increase the font size for the navigation links */
+  margin-right: 20px; /* Increase the right margin for more spacing between links */
+}
+
+.nav-item {
+  margin-right: 20px; /* Increase the right margin for more spacing between items */
+}
+
+.navbar-brand img {
+  width: 60px; /* Increase the width for a bigger logo */
+  height: 60px; /* Increase the height for a bigger logo */
+  /* You can also apply other styling properties here */
+}

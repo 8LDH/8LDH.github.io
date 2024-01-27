@@ -1,0 +1,14 @@
+/* Center the image horizontally */
+.center-image {
+  margin: 0 auto;
+  display: block;
+  width: 150px;
+  height: 150px;
+  padding-top: 15px;
+  
+}
+
+/* Center-align text */
+.center-text {
+  text-align: center;
+}

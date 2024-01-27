@@ -1,0 +1,21 @@
+/* ZastepyCardComponent.css */
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap as needed */
+    justify-content: center; /* Center the cards horizontally */
+    align-items: flex-start; /* Align the cards at the top on small screens */
+  }
+  
+  @media (min-width: 768px) {
+    .card-row {
+      align-items: center; /* Align the cards in the center on larger screens */
+    }
+  }
+
+  .card-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
