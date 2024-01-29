@@ -1,15 +1,16 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
+import { Container } from "react-bootstrap";
 
 const FooterComponent = () => {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
-      <div className="container">
+      <Container>
         <span className="text-muted">
           © {currentYear} Ósma Londyńska Drużyna Harcerzy.
         </span>
-      </div>
+      </Container>
     </footer>
   );
 };

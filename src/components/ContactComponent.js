@@ -8,31 +8,31 @@ function ContactComponent() {
         <div className="col-md-6">
           <div className="address mb-4">
             <h3>Adres:</h3>
-            St Mary's and St John's CE School Primary <br />
-            40 Wykeham Rd, London NW4 2SU
+            St Mary’s and St John’s CE Upper School <br />
+            10-2 Downage, London NW4 1AA
           </div>
           <div className="email mb-4">
             <h3>Adresy emailowe</h3>
             <ul>
               <li>
                 Szczepowy: {""}
-                <a href="mailto:leader1@example.com">leader1@example.com</a>
+                <a href="mailto:bartek@osemka.co.uk">bartek@osemka.co.uk</a>
               </li>
               <li>
                 Drużynowy: {""}
-                <a href="mailto:troop@example.com">troop@example.com</a>
+                <a href="mailto:wasiuk8ldh@gmail.com">wasiuk8ldh@gmail.com</a>
               </li>
               <li>
                 Wódz Zuchów: {""}
-                <a href="mailto:leader2@example.com">leader2@example.com</a>
+                <a href="mailto:wyrwideby@gmail.com">wyrwideby@gmail.com</a>
               </li>
               <li>
                 Drużynowy Wędrowników: {""}
-                <a href="mailto:leader2@example.com">leader2@example.com</a>
+                <a href="mailto:mlmbws@gmail.com">mlmbws@gmail.com</a>
               </li>
               <li>
                 Webmajster: {""}
-                <a href="mailto:leader2@example.com">leader2@example.com</a>
+                <a href="mailto:jan@osemka.co.uk">jan@osemka.co.uk</a>
               </li>
             </ul>
           </div>

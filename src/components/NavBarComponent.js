@@ -41,7 +41,7 @@ const NavbarComponent = () => {
               <NavLink
                 to="/"
                 className="nav-link"
-                activeClassName="active"
+                activeclassname="active"
                 onClick={handleNavClose}
               >
                 Główna Strona
@@ -51,7 +51,7 @@ const NavbarComponent = () => {
               <NavLink
                 to="/o-nas"
                 className="nav-link"
-                activeClassName="active"
+                activeclassname="active"
                 onClick={handleNavClose}
               >
                 Coś O Nas
@@ -61,7 +61,7 @@ const NavbarComponent = () => {
               <NavLink
                 to="/druzyna"
                 className="nav-link"
-                activeClassName="active"
+                activeclassname="active"
                 onClick={handleNavClose}
               >
                 Nasza Drużyna
@@ -71,7 +71,7 @@ const NavbarComponent = () => {
               <NavLink
                 to="/kalendarz"
                 className="nav-link"
-                activeClassName="active"
+                activeclassname="active"
                 onClick={handleNavClose}
               >
                 Kalendarz
@@ -81,7 +81,7 @@ const NavbarComponent = () => {
               <NavLink
                 to="/galeria"
                 className="nav-link"
-                activeClassName="active"
+                activeclassname="active"
                 onClick={handleNavClose}
               >
                 Galeria
@@ -91,7 +91,7 @@ const NavbarComponent = () => {
               <NavLink
                 to="/dokumenty"
                 className="nav-link"
-                activeClassName="active"
+                activeclassname="active"
                 onClick={handleNavClose}
               >
                 Dokumenty
@@ -101,7 +101,7 @@ const NavbarComponent = () => {
               <NavLink
                 to="/kph"
                 className="nav-link"
-                activeClassName="active"
+                activeclassname="active"
                 onClick={handleNavClose}
               >
                 KPH
@@ -111,7 +111,7 @@ const NavbarComponent = () => {
               <NavLink
                 to="/linki"
                 className="nav-link"
-                activeClassName="active"
+                activeclassname="active"
                 onClick={handleNavClose}
               >
                 Linki
@@ -121,7 +121,7 @@ const NavbarComponent = () => {
               <NavLink
                 to="/kontakty"
                 className="nav-link"
-                activeClassName="active"
+                activeclassname="active"
                 onClick={handleNavClose}
               >
                 Kontakty

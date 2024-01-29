@@ -1,18 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import DruzynaPage from "./pages/DruzynaPage";
 import CalendarPage from "./pages/CalendarPage";
-import GalleryAlbumPage from "./pages/GalleryAlbumPage"; // Updated import
-import GalleryPage from "./pages/GalleryPage"; // Updated import
+import GalleryAlbumPage from "./pages/GalleryAlbumPage";
+import GalleryPage from "./pages/GalleryPage";
 import DocumentsPage from "./pages/DocumentsPage";
 import KphPage from "./pages/KphPage";
 import LinksPage from "./pages/LinksPage";
@@ -20,7 +15,7 @@ import ContactPage from "./pages/ContactPage";
 import NavbarComponent from "./components/NavBarComponent";
 import FooterComponent from "./components/FooterComponent";
 import { Container } from "react-bootstrap";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 function App() {
   return (
@@ -44,8 +39,8 @@ function App() {
             </Routes>
           </Fade>
         </Container>
-        <FooterComponent />
       </div>
+      <FooterComponent />
     </Router>
   );
 }
