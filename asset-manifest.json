@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8b8f9d3.css",
-    "main.js": "/static/js/main.aaa2c3e0.js",
-    "static/js/787.d63c0809.chunk.js": "/static/js/787.d63c0809.chunk.js",
+    "main.css": "/static/css/main.33b2ef7f.css",
+    "main.js": "/static/js/main.be4a422b.js",
+    "static/js/496.efc58856.chunk.js": "/static/js/496.efc58856.chunk.js",
     "static/media/IMG_2116.JPEG": "/static/media/IMG_2116.3e61a2eba3f75471e471.JPEG",
     "static/media/IMG_2097.JPEG": "/static/media/IMG_2097.3d7f1f4677b125b25121.JPEG",
     "static/media/IMG_2168.JPEG": "/static/media/IMG_2168.95720551fe2e49078d61.JPEG",
@@ -27,18 +27,18 @@
     "static/media/Wuni.jpg": "/static/media/Wuni.14df7c24d44e09b47a68.jpg",
     "static/media/Bart.jpg": "/static/media/Bart.640a14a8f9f463a123d2.jpg",
     "static/media/Jan.jpg": "/static/media/Jan.ad830a6f868ed4327b8a.jpg",
-    "static/media/logo.png": "/static/media/logo.1b467eb29664cb005d13.png",
+    "static/media/logo.png": "/static/media/logo.fbf4af2b4f149de1aade.png",
     "static/media/harcownicy1.png": "/static/media/harcownicy1.afb43bbb6f6c417b8031.png",
     "static/media/harcownicy2.png": "/static/media/harcownicy2.5c5a81ff204de037115e.png",
     "static/media/cwik.png": "/static/media/cwik.1976be40281534ae800d.png",
     "static/media/sprawnosci.png": "/static/media/sprawnosci.3ac3deda1b8180ada199.png",
     "index.html": "/index.html",
-    "main.d8b8f9d3.css.map": "/static/css/main.d8b8f9d3.css.map",
-    "main.aaa2c3e0.js.map": "/static/js/main.aaa2c3e0.js.map",
-    "787.d63c0809.chunk.js.map": "/static/js/787.d63c0809.chunk.js.map"
+    "main.33b2ef7f.css.map": "/static/css/main.33b2ef7f.css.map",
+    "main.be4a422b.js.map": "/static/js/main.be4a422b.js.map",
+    "496.efc58856.chunk.js.map": "/static/js/496.efc58856.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8b8f9d3.css",
-    "static/js/main.aaa2c3e0.js"
+    "static/css/main.33b2ef7f.css",
+    "static/js/main.be4a422b.js"
   ]
 }
