@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.33b2ef7f.css",
-    "main.js": "/static/js/main.be4a422b.js",
+    "main.css": "/static/css/main.7ebaac20.css",
+    "main.js": "/static/js/main.1d0d227a.js",
     "static/js/496.efc58856.chunk.js": "/static/js/496.efc58856.chunk.js",
     "static/media/IMG_2116.JPEG": "/static/media/IMG_2116.3e61a2eba3f75471e471.JPEG",
     "static/media/IMG_2097.JPEG": "/static/media/IMG_2097.3d7f1f4677b125b25121.JPEG",
@@ -19,26 +19,27 @@
     "static/media/IMG_2250.JPEG": "/static/media/IMG_2250.5a650fedff7e721d10d5.JPEG",
     "static/media/IMG_2254.JPEG": "/static/media/IMG_2254.49057b2c1757d3d1208e.JPEG",
     "static/media/IMG_2137.JPEG": "/static/media/IMG_2137.5dada0e429f413a56a14.JPEG",
-    "static/media/Jacek.jpg": "/static/media/Jacek.14df7c24d44e09b47a68.jpg",
-    "static/media/Krystian.jpg": "/static/media/Krystian.14df7c24d44e09b47a68.jpg",
-    "static/media/Milosz.jpg": "/static/media/Milosz.14df7c24d44e09b47a68.jpg",
-    "static/media/Szymon.jpg": "/static/media/Szymon.14df7c24d44e09b47a68.jpg",
+    "static/media/Krystian.png": "/static/media/Krystian.a533b27963f10bdf6ece.png",
     "static/media/Wasiuk.jpg": "/static/media/Wasiuk.14df7c24d44e09b47a68.jpg",
-    "static/media/Wuni.jpg": "/static/media/Wuni.14df7c24d44e09b47a68.jpg",
+    "static/media/Oliwer.png": "/static/media/Oliwer.3987996a0d1c795bee5b.png",
     "static/media/Bart.jpg": "/static/media/Bart.640a14a8f9f463a123d2.jpg",
-    "static/media/Jan.jpg": "/static/media/Jan.ad830a6f868ed4327b8a.jpg",
+    "static/media/Szymon.png": "/static/media/Szymon.6de01f93d2e2efc1c860.png",
+    "static/media/Milosz.png": "/static/media/Milosz.2f41bdb6ead7efc6f8c4.png",
+    "static/media/Jan.png": "/static/media/Jan.9e266208afc79f8ded2c.png",
+    "static/media/Jacek.png": "/static/media/Jacek.252fe164b2d2fdddd1ad.png",
+    "static/media/Dawid.png": "/static/media/Dawid.f4e06d9dde14b9010d89.png",
     "static/media/logo.png": "/static/media/logo.fbf4af2b4f149de1aade.png",
     "static/media/harcownicy1.png": "/static/media/harcownicy1.afb43bbb6f6c417b8031.png",
     "static/media/harcownicy2.png": "/static/media/harcownicy2.5c5a81ff204de037115e.png",
     "static/media/cwik.png": "/static/media/cwik.1976be40281534ae800d.png",
     "static/media/sprawnosci.png": "/static/media/sprawnosci.3ac3deda1b8180ada199.png",
     "index.html": "/index.html",
-    "main.33b2ef7f.css.map": "/static/css/main.33b2ef7f.css.map",
-    "main.be4a422b.js.map": "/static/js/main.be4a422b.js.map",
+    "main.7ebaac20.css.map": "/static/css/main.7ebaac20.css.map",
+    "main.1d0d227a.js.map": "/static/js/main.1d0d227a.js.map",
     "496.efc58856.chunk.js.map": "/static/js/496.efc58856.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33b2ef7f.css",
-    "static/js/main.be4a422b.js"
+    "static/css/main.7ebaac20.css",
+    "static/js/main.1d0d227a.js"
   ]
 }
