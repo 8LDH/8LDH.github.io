@@ -1,0 +1,9 @@
+/* Style for unvisited links (initially blue) */
+.image-gallery-section ul li a {
+  color: blue; /* Set the color for unvisited links */
+}
+
+/* Style for visited links (will be purple) */
+.image-gallery-section ul li a:visited {
+  color: purple; /* Set the color for visited links */
+}

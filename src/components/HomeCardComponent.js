@@ -49,13 +49,12 @@ function HomeCardComponent() {
                     <>
                       <Card.Text>
                         <strong>
-                          27/12/23 – 30/12/23
-                          <br />
-                          Zimowisko - Paccar Scout Center, Anglia
+                          <ul>
+                            <li>27/12/23 – 30/12/23</li>
+                            <li>Zimowisko - Paccar Scout Center, Anglia</li>
+                          </ul>
                         </strong>
-                        <br />
-                        Lorum ipsum dolor sit amet, consectetur adipiscing elit.
-                      </Card.Text>
+</Card.Text>
                     </>
                   )}
                   {idx === 0 ? (

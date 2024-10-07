@@ -24,11 +24,11 @@ function ContactComponent() {
               </li>
               <li>
                 Wódz Zuchów: {""}
-                <a href="mailto:wyrwideby@gmail.com">wyrwideby@gmail.com</a>
+                <a href="mailto:wyrwideby@gmail.com">wyrwideby@yahoo.com</a>
               </li>
               <li>
                 Drużynowy Wędrowników: {""}
-                <a href="mailto:mlmbws@gmail.com">mlmbws@gmail.com</a>
+                <a href="mailto:wigrywedro@gmail.com">wigrywedro@gmail.com</a>
               </li>
               <li>
                 Webmajster: {""}
