@@ -32,7 +32,7 @@ const FooterComponent = () => {
             <h5 className="footer-heading">Szybkie Linki</h5>
             <ul className="footer-links">
               <li><a href="/o-nas">Coś O Nas</a></li>
-              <li><a href="/druzyna">Nasza Drużyna</a></li>
+
               <li><a href="/kalendarz">Kalendarz</a></li>
               <li><a href="/galeria">Galeria</a></li>
               <li><a href="/dokumenty">Dokumenty</a></li>

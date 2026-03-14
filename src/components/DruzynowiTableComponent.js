@@ -6,11 +6,15 @@ function DruzynowiTableComponent() {
     <Table striped bordered>
       <thead>
         <tr>
-          <th>2023 - dzisiaj</th>
-          <th>Mateusz Wasiuk Ćw.</th>
+          <th>2025 - dzisiaj</th>
+          <th>Jacek Krzystek Pwd.</th>
         </tr>
       </thead>
       <tbody>
+        <tr>
+          <td>2023 - 2025</td>
+          <td>Mateusz Wasiuk Ćw.</td>
+        </tr>
         <tr>
           <td>2018 - 2023</td>
           <td>Jan Andrzejczyk Pwd.</td>

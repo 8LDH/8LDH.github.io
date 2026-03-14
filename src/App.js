@@ -4,7 +4,7 @@ import "./App.css";
 
 import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
-import DruzynaPage from "./pages/DruzynaPage";
+
 import CalendarPage from "./pages/CalendarPage";
 import GalleryAlbumPage from "./pages/GalleryAlbumPage";
 
@@ -28,7 +28,7 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/o-nas" element={<AboutUsPage />} />
-              <Route path="/druzyna" element={<DruzynaPage />} />
+
               <Route path="/kalendarz" element={<CalendarPage />} />
               <Route path="/galeria" element={<GalleryAlbumPage />} />
 

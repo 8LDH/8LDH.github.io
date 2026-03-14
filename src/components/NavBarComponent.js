@@ -57,16 +57,7 @@ const NavbarComponent = () => {
                 Coś O Nas
               </NavLink>
             </Nav.Item>
-            <Nav.Item>
-              <NavLink
-                to="/druzyna"
-                className="nav-link"
 
-                onClick={handleNavClose}
-              >
-                Nasza Drużyna
-              </NavLink>
-            </Nav.Item>
             <Nav.Item>
               <NavLink
                 to="/kalendarz"

@@ -20,7 +20,7 @@ function ContactComponent() {
               </li>
               <li>
                 Drużynowy: {""}
-                <a href="mailto:wasiuk8ldh@gmail.com">wasiuk8ldh@gmail.com</a>
+                <a href="mailto:jack.krzystek@gmail.com">jack.krzystek@gmail.com</a>
               </li>
               <li>
                 Wódz Zuchów: {""}
@@ -32,7 +32,7 @@ function ContactComponent() {
               </li>
               <li>
                 Webmajster: {""}
-                <a href="mailto:jan@osemka.co.uk">jan@osemka.co.uk</a>
+                <a href="mailto:jkandrzej@gmail.com">jkandrzej@gmail.com</a>
               </li>
             </ul>
           </div>

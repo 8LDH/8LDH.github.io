@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import ScrollToTop from "../components/ScrollToTop";
-import { Container, Card } from "react-bootstrap";
+import { Container, Card, Row, Col } from "react-bootstrap";
 
 const GalleryAlbumPage = () => {
   useEffect(() => {
@@ -18,39 +18,81 @@ const GalleryAlbumPage = () => {
     <div>
       <ScrollToTop />
       <h1 className="text-center mb-4">Galeria</h1>
-      <Container className="d-flex flex-column align-items-center">
-        <Card className="p-3 mb-4 text-center" style={{ maxWidth: "540px", width: "100%" }}>
-          <Card.Body>
-            <Card.Title>Nasze zdjęcia na Instagramie</Card.Title>
-            <Card.Text>
-              Śledź naszą aktywność i zobacz najnowsze zdjęcia z naszych
-              wypraw, obozów i zbiórek na naszym profilu Instagram.
-            </Card.Text>
-            <a
-              href="https://www.instagram.com/8.ldh/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-            >
-              @8.ldh na Instagramie
-            </a>
-          </Card.Body>
-        </Card>
-        <blockquote
-          className="instagram-media"
-          data-instgrm-permalink="https://www.instagram.com/8.ldh/"
-          data-instgrm-captioned
-          style={{
-            background: "#FFF",
-            border: 0,
-            borderRadius: "12px",
-            boxShadow: "var(--shadow-md)",
-            margin: "0 auto",
-            maxWidth: "540px",
-            minWidth: "326px",
-            width: "100%",
-          }}
-        ></blockquote>
+      <Container>
+        <Row className="justify-content-center mb-4">
+          <Col md={6} className="mb-3">
+            <Card className="p-3 text-center h-100">
+              <Card.Body>
+                <Card.Title>8 LDH</Card.Title>
+                <Card.Text>
+                  Najnowsze zdjęcia z naszych wypraw, obozów i zbiórek.
+                </Card.Text>
+                <a
+                  href="https://www.instagram.com/8.ldh/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  @8.ldh
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={6} className="mb-3">
+            <Card className="p-3 text-center h-100">
+              <Card.Body>
+                <Card.Title>Wędro — Wigry LDW</Card.Title>
+                <Card.Text>
+                  Zdjęcia i relacje z wędrówek i wypraw starszych harcerzy.
+                </Card.Text>
+                <a
+                  href="https://www.instagram.com/wigry_ldw/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  @wigry_ldw
+                </a>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Row className="justify-content-center">
+          <Col md={6} className="d-flex justify-content-center mb-4">
+            <blockquote
+              className="instagram-media"
+              data-instgrm-permalink="https://www.instagram.com/8.ldh/"
+              data-instgrm-captioned
+              style={{
+                background: "#FFF",
+                border: 0,
+                borderRadius: "12px",
+                boxShadow: "var(--shadow-md)",
+                margin: "0 auto",
+                maxWidth: "540px",
+                minWidth: "326px",
+                width: "100%",
+              }}
+            ></blockquote>
+          </Col>
+          <Col md={6} className="d-flex justify-content-center mb-4">
+            <blockquote
+              className="instagram-media"
+              data-instgrm-permalink="https://www.instagram.com/wigry_ldw/"
+              data-instgrm-captioned
+              style={{
+                background: "#FFF",
+                border: 0,
+                borderRadius: "12px",
+                boxShadow: "var(--shadow-md)",
+                margin: "0 auto",
+                maxWidth: "540px",
+                minWidth: "326px",
+                width: "100%",
+              }}
+            ></blockquote>
+          </Col>
+        </Row>
       </Container>
     </div>
   );

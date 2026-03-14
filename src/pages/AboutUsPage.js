@@ -14,11 +14,15 @@ function AboutUsPage() {
         <div className="row">
           <div className="col-md-6">
             <h3>Byli Drużynowi</h3>
-            <DruzynowiTableComponent />
+            <div className="table-responsive-wrapper">
+              <DruzynowiTableComponent />
+            </div>
           </div>
           <div className="col-md-6">
             <h3>Byli Szczepowi</h3>
-            <SzczepowiTableComponent />
+            <div className="table-responsive-wrapper">
+              <SzczepowiTableComponent />
+            </div>
           </div>
         </div>
       </div>

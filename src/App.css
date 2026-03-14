@@ -164,4 +164,22 @@ a.card-link:hover {
   h1 {
     font-size: 1.8rem;
   }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .table {
+    font-size: 0.85rem;
+  }
+}
+
+/* Ensure tables don't overflow on mobile */
+.table-responsive-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
