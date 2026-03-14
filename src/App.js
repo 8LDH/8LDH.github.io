@@ -7,7 +7,7 @@ import AboutUsPage from "./pages/AboutUsPage";
 import DruzynaPage from "./pages/DruzynaPage";
 import CalendarPage from "./pages/CalendarPage";
 import GalleryAlbumPage from "./pages/GalleryAlbumPage";
-import GalleryPage from "./pages/GalleryPage";
+
 import DocumentsPage from "./pages/DocumentsPage";
 import KphPage from "./pages/KphPage";
 import LinksPage from "./pages/LinksPage";
@@ -31,7 +31,7 @@ function App() {
               <Route path="/druzyna" element={<DruzynaPage />} />
               <Route path="/kalendarz" element={<CalendarPage />} />
               <Route path="/galeria" element={<GalleryAlbumPage />} />
-              <Route path="/galeria/:folderPath" element={<GalleryPage />} />
+
               <Route path="/dokumenty" element={<DocumentsPage />} />
               <Route path="/kph" element={<KphPage />} />
               <Route path="/linki" element={<LinksPage />} />

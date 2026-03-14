@@ -1,33 +1,17 @@
-.carousel-container {
+.instagram-embed-container {
   margin: 0 auto;
   margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
 }
 
-.carousel-inner {
-  border-radius: 20px;
-  box-shadow: var(--shadow-md);
+.instagram-embed-container .instagram-media {
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-md) !important;
 }
 
-.carousel-inner > .carousel-item {
-  height: 100%;
-  width: 100%;
-  border-radius: 20px;
-}
-
-.carousel-inner > .carousel-item > img {
-  height: 650px;      /* Adjust this value to control the height on desktop */
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-/* For mobile devices */
 @media (max-width: 767px) {
-  .carousel-inner > .carousel-item > img {
-    height: auto;  /* Allow the image to scale naturally on mobile */
-    max-height: 400px; /* Optional: Add max height on mobile to prevent it from growing too large */
-  }
-
-  .carousel-container {
-    max-width: 100%;  /* Full width carousel on mobile */
+  .instagram-embed-container {
+    max-width: 100%;
   }
 }
