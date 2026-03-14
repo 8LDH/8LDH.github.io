@@ -7,7 +7,8 @@ import googleCalendarPlugin from '@fullcalendar/google-calendar';
 
 const fetchCalendarEvents = async (token, onSuccess, onFailure) => {
   try {
-    const response = await fetch(`https://www.googleapis.com/calendar/v3/calendars/8kaldh@gmail.com/events`, {
+    const calendarId = process.env.REACT_APP_GOOGLE_CALENDAR_ID || '8kaldh@gmail.com';
+    const response = await fetch(`https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(calendarId)}/events`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -15,7 +16,6 @@ const fetchCalendarEvents = async (token, onSuccess, onFailure) => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
-    console.log(token);
     const data = await response.json();
     onSuccess(data.items.map(event => ({
       // Map Google Calendar event fields to FullCalendar event fields

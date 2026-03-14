@@ -76,7 +76,7 @@ const ImageGalleryComponent = ({ folderPath }) => {
           <img
             key={index}
             src={url}
-            alt=""
+            alt={`Gallery item ${index + 1}`}
             loading="lazy"
             style={{ width: "100%", display: "block" }}
             onClick={() => handleImageClick(url, index)}
@@ -85,14 +85,14 @@ const ImageGalleryComponent = ({ folderPath }) => {
       </Masonry>
       <Modal show={showModal} onHide={handleCloseModal} centered size="xl">
         <div {...handlers} className="modal-container">
-          <button className="close-button" onClick={handleCloseModal}>
+          <button className="close-button" onClick={handleCloseModal} aria-label="Close gallery">
             &times;
           </button>
           {selectedImage && (
             <>
               <img
                 src={selectedImage}
-                alt=""
+                alt={`Gallery item ${currentImageIndex + 1}`}
                 className="modal-image w-100"
                 loading="eager"
               />
