@@ -10,9 +10,11 @@ function HomePage() {
     <div>
       <ScrollToTop />
       <h1 className="text-center">
-        Ósma Londyńska Drużyna Harcerzy <br />
-        <small>im. Stefana Starzyńskiego</small>
+        Ósma Londyńska Drużyna Harcerzy
       </h1>
+      <p className="text-center page-hero-subtitle">
+        im. Stefana Starzyńskiego
+      </p>
       <Container>
         <CarouselComponent />
         <HomeCardComponent />

@@ -1,0 +1,109 @@
+.site-footer {
+  background-color: var(--navy);
+  color: rgba(255, 255, 255, 0.85);
+  padding: 48px 0 24px;
+  margin-top: auto;
+}
+
+.site-footer h2::after {
+  display: none;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.footer-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-title {
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.footer-social a {
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: color var(--transition);
+}
+
+.footer-social a:hover {
+  color: white;
+}
+
+.footer-heading {
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color var(--transition), padding-left var(--transition);
+}
+
+.footer-links a:hover {
+  color: var(--gold);
+  padding-left: 4px;
+}
+
+.footer-contact-item {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-contact-item a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.footer-contact-item a:hover {
+  text-decoration: underline;
+}
+
+.footer-divider {
+  border-color: rgba(255, 255, 255, 0.15);
+  margin: 32px 0 16px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+}

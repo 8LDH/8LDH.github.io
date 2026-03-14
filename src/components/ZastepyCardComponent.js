@@ -8,7 +8,7 @@ function ZastepyCardComponent() {
     <Container className="text-center">
       <Row>
         <Col xs={12} md={4}>
-          <Card className="mb-4">
+          <Card className="mb-4 zastepy-card">
             <Card.Body>
               <Card.Title className="card-title">Zastęp Zośka</Card.Title>
               <Card.Text>
@@ -19,7 +19,7 @@ function ZastepyCardComponent() {
           </Card>
         </Col>
         <Col xs={12} md={4}>
-          <Card className="mb-4">
+          <Card className="mb-4 zastepy-card">
             <Card.Body>
               <Card.Title className="card-title">Zastęp Alek</Card.Title>
               <Card.Text>
@@ -30,7 +30,7 @@ function ZastepyCardComponent() {
           </Card>
         </Col>
         <Col xs={12} md={4}>
-          <Card className="mb-4">
+          <Card className="mb-4 zastepy-card">
             <Card.Body>
               <Card.Title className="card-title">Zastęp Rudy</Card.Title>
               <Card.Text>

@@ -9,11 +9,10 @@ function HomeCardComponent() {
 
   return (
     <div className="card-container">
-      <Row xs={1} md={2} className="g-2">
+      <Row xs={1} md={2} className="g-4">
         {Array.from({ length: 2 }).map((_, idx) => (
           <Col key={idx}>
-            <div className="p-3">
-              <Card className="p-3">
+              <Card className="p-3 h-100">
                 <Card.Body>
                   <Card.Title>
                     {idx === 0 ? "Czuwaj!" : "Aktualności"}
@@ -62,7 +61,6 @@ function HomeCardComponent() {
                   ) : null}
                 </Card.Body>
               </Card>
-            </div>
           </Col>
         ))}
       </Row>

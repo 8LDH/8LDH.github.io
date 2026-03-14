@@ -3,37 +3,79 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #12409b; */
   color: white;
-  padding: 30px;
+  padding: 16px 30px;
   position: sticky;
-  top: 0; /* Stick to the top of the viewport */
+  top: 0;
   z-index: 1000;
 }
 
 .navbar {
-  background-color: #061c47; /* Set your desired background color */
-  padding: 20px; /* Increase padding for more spacing */
-  -webkit-box-shadow: 0 8px 6px -6px #999;
-  -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
+  background-color: var(--navy);
+  padding: 12px 16px;
+  box-shadow: 0 4px 20px rgba(6, 28, 71, 0.25);
 }
 
 .navbar-brand {
-  font-size: 24px; /* Increase the font size for the brand/logo */
-}
-
-.navbar-nav .nav-link {
-  font-size: 18px; /* Increase the font size for the navigation links */
-  margin-right: 20px; /* Increase the right margin for more spacing between links */
-}
-
-.nav-item {
-  margin-right: 20px; /* Increase the right margin for more spacing between items */
+  font-size: 24px;
 }
 
 .navbar-brand img {
-  width: 60px; /* Increase the width for a bigger logo */
-  height: 60px; /* Increase the height for a bigger logo */
-  /* You can also apply other styling properties here */
+  width: 50px;
+  height: 50px;
+  transition: transform var(--transition);
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.08);
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 4px;
+  padding: 8px 12px !important;
+  border-radius: var(--radius-sm);
+  transition: background-color var(--transition), color var(--transition);
+  position: relative;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(212, 168, 67, 0.15);
+  color: var(--gold) !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--gold) !important;
+}
+
+.navbar-nav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 12px;
+  right: 12px;
+  height: 2px;
+  background-color: var(--gold);
+  border-radius: 1px;
+}
+
+.nav-item {
+  margin-right: 2px;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    font-size: 1.05rem;
+    padding: 10px 16px !important;
+    margin-right: 0;
+  }
+
+  .navbar-nav .nav-link.active::after {
+    display: none;
+  }
+
+  .navbar-nav .nav-link.active {
+    background-color: rgba(212, 168, 67, 0.15);
+  }
 }

@@ -20,7 +20,7 @@ function KomendaProfileComponent() {
       <Row>
         <Col xs={12} md={6}>
           <Figure>
-            <Figure.Image src={Bart} thumbnail />
+            <Figure.Image src={Bart} />
             <Figure.Caption>
               Bartłomiej Rój Phm.
               <br />
@@ -30,7 +30,7 @@ function KomendaProfileComponent() {
         </Col>
         <Col xs={12} md={6}>
           <Figure>
-            <Figure.Image src={Wasiuk} thumbnail />
+            <Figure.Image src={Wasiuk} />
             <Figure.Caption>
               Mateusz Wasiuk Ćw. <br />
               Drużynowy
@@ -41,7 +41,7 @@ function KomendaProfileComponent() {
       <Row>
         <Col xs={12} md={4}>
           <Figure>
-            <Figure.Image src={Oliwer} thumbnail />
+            <Figure.Image src={Oliwer} />
             <Figure.Caption>
               Oliwer Lewandowski Ćw.
               <br />
@@ -51,7 +51,7 @@ function KomendaProfileComponent() {
         </Col>
         <Col xs={12} md={4}>
           <Figure>
-            <Figure.Image src={Milosz} thumbnail />
+            <Figure.Image src={Milosz} />
             <Figure.Caption>
               Miłosz Sadowski Ćw. <br />
               Drużynowy Wędrowników
@@ -60,7 +60,7 @@ function KomendaProfileComponent() {
         </Col>
         <Col xs={12} md={4}>
           <Figure>
-            <Figure.Image src={Jan} thumbnail />
+            <Figure.Image src={Jan} />
             <Figure.Caption>
               Jan Andrzejczyk Pwd. <br />
               Webmajster
@@ -71,7 +71,7 @@ function KomendaProfileComponent() {
       <Row>
         <Col xs={12} sm={6} md={4} lg={3}>
           <Figure>
-            <Figure.Image src={Jacek} thumbnail />
+            <Figure.Image src={Jacek} />
             <Figure.Caption>
               Jacek Krzystek <br />
               Przyboczny
@@ -80,7 +80,7 @@ function KomendaProfileComponent() {
         </Col>
         <Col xs={12} sm={6} md={4} lg={3}>
           <Figure>
-            <Figure.Image src={Krystian} thumbnail />
+            <Figure.Image src={Krystian} />
             <Figure.Caption>
               Krystian Kasperski Ćw. <br />
               Przyboczny
@@ -89,7 +89,7 @@ function KomendaProfileComponent() {
         </Col>
         <Col xs={12} sm={6} md={4} lg={3}>
           <Figure>
-            <Figure.Image src={Wuni} thumbnail />
+            <Figure.Image src={Wuni} />
             <Figure.Caption>
               Dawid Wuni Ćw. <br />
               Przyboczny
@@ -98,7 +98,7 @@ function KomendaProfileComponent() {
         </Col>
         <Col xs={12} sm={6} md={4} lg={3}>
           <Figure>
-            <Figure.Image src={Szymon} thumbnail />
+            <Figure.Image src={Szymon} />
             <Figure.Caption>
               Szymon Mizera Ćw. <br />
               Przyboczny

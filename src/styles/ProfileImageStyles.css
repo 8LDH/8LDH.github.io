@@ -1,8 +1,21 @@
- 
-  /* Set a fixed height for the images (adjust the value as needed) */
-  .image-container img {
-    height: 300px; /* Adjust the height as needed */
-    width: auto; /* Maintain aspect ratio */
-    margin: 0 10px; /* Add margin between images if desired */
-  }
-  
+.image-container .figure-img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--off-white);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.image-container .figure-img:hover {
+  transform: scale(1.04);
+  box-shadow: var(--shadow-md);
+}
+
+.image-container .figure-caption {
+  font-weight: 600;
+  color: var(--navy);
+  margin-top: 12px;
+  font-size: 1rem;
+}

@@ -13,9 +13,8 @@ function DruzynaPage() {
       <h3 className="mb-4"> Komenda</h3>
       <div className="image-container">
         <KomendaProfileComponent className="centered-image" />
-        <div className="text-centered mb-4"></div>
+        <hr className="section-divider" />
         <h3>Zastępy</h3>
-        <div className="text-centered mb-4"></div>
         <ZastepyCardComponent />
       </div>
     </div>
