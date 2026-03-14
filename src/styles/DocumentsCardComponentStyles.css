@@ -16,3 +16,21 @@
   text-align: center;
   font-weight: 700;
 }
+
+.document-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.document-open-label {
+  display: inline-block;
+  color: var(--gold-hover);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: color var(--transition);
+}
+
+.document-card-link:hover .document-open-label {
+  color: var(--navy);
+}

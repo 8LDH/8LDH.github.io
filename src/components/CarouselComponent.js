@@ -5,21 +5,21 @@ import { useEffect } from "react";
 
 function CarouselComponent() {
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://www.instagram.com/embed.js";
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
+    if (window.instgrm) {
+      window.instgrm.Embeds.process();
+    } else {
+      const script = document.createElement("script");
+      script.src = "https://www.instagram.com/embed.js";
+      script.async = true;
+      document.body.appendChild(script);
+    }
   }, []);
 
   return (
     <Container className="instagram-embed-container">
       <blockquote
         className="instagram-media"
-        data-instgrm-permalink="https://www.instagram.com/8.ldh/"
+        data-instgrm-permalink="https://www.instagram.com/p/DQ94hErgOkw/"
         data-instgrm-captioned
         style={{
           background: "#FFF",

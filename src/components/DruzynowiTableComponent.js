@@ -3,7 +3,7 @@ import Table from "react-bootstrap/Table";
 
 function DruzynowiTableComponent() {
   return (
-    <Table striped bordered>
+    <Table>
       <thead>
         <tr>
           <th>2025 - dzisiaj</th>

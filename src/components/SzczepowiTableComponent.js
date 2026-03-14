@@ -1,9 +1,8 @@
-import React from 'react';
 import Table from 'react-bootstrap/Table';
 
 function SzczepowiTableComponent() {
   return (
-    <Table striped bordered>
+    <Table>
       <thead>
         <tr>
           <th>2023 - dzisiaj</th>

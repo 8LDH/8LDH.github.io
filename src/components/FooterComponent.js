@@ -11,8 +11,8 @@ const FooterComponent = () => {
         <Row className="gy-4">
           <Col md={4}>
             <div className="footer-brand">
-              <img src={logo} alt="8 LDH Logo" className="footer-logo" />
-              <h5 className="footer-title">8 LDH</h5>
+              <img src={logo} alt="8LDH Logo" className="footer-logo" />
+              <h5 className="footer-title">8LDH</h5>
             </div>
             <p className="footer-description">
               Ósma Londyńska Drużyna Harcerzy im. Stefana Starzyńskiego.

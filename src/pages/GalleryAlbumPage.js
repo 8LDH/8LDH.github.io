@@ -1,67 +1,56 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ScrollToTop from "../components/ScrollToTop";
-import { Container, Card, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+
+const LDH_POSTS = [
+  "https://www.instagram.com/p/DM_a7WnIfFT/",
+  "https://www.instagram.com/p/DNL5wIsoOe3/",
+  "https://www.instagram.com/p/DNUHTrdIm_P/",
+  "https://www.instagram.com/p/DNli7lhIVW3/",
+  "https://www.instagram.com/p/DQ94hErgOkw/",
+  "https://www.instagram.com/p/DSiLb89COOI/",
+];
+
+const WIGRY_POSTS = [
+  "https://www.instagram.com/p/DBTzKT0omVN/",
+  "https://www.instagram.com/p/DBerz_yIVl2/",
+  "https://www.instagram.com/p/DBesF_zoxdV/",
+  "https://www.instagram.com/p/DB6AziGIqgr/",
+  "https://www.instagram.com/p/DCkg4lco8N_/",
+  "https://www.instagram.com/p/DNUHTrdIm_P/",
+];
 
 const GalleryAlbumPage = () => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://www.instagram.com/embed.js";
-    script.async = true;
-    document.body.appendChild(script);
+  const [ldhPost] = useState(
+    () => LDH_POSTS[Math.floor(Math.random() * LDH_POSTS.length)]
+  );
+  const [wigryPost] = useState(
+    () => WIGRY_POSTS[Math.floor(Math.random() * WIGRY_POSTS.length)]
+  );
 
-    return () => {
-      document.body.removeChild(script);
-    };
+  useEffect(() => {
+    if (window.instgrm) {
+      window.instgrm.Embeds.process();
+    } else {
+      const script = document.createElement("script");
+      script.src = "https://www.instagram.com/embed.js";
+      script.async = true;
+      document.body.appendChild(script);
+    }
   }, []);
 
   return (
     <div>
       <ScrollToTop />
-      <h1 className="text-center mb-4">Galeria</h1>
+      <h1 className="mb-4">Galeria</h1>
       <Container>
-        <Row className="justify-content-center mb-4">
-          <Col md={6} className="mb-3">
-            <Card className="p-3 text-center h-100">
-              <Card.Body>
-                <Card.Title>8 LDH</Card.Title>
-                <Card.Text>
-                  Najnowsze zdjęcia z naszych wypraw, obozów i zbiórek.
-                </Card.Text>
-                <a
-                  href="https://www.instagram.com/8.ldh/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary"
-                >
-                  @8.ldh
-                </a>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={6} className="mb-3">
-            <Card className="p-3 text-center h-100">
-              <Card.Body>
-                <Card.Title>Wędro — Wigry LDW</Card.Title>
-                <Card.Text>
-                  Zdjęcia i relacje z wędrówek i wypraw starszych harcerzy.
-                </Card.Text>
-                <a
-                  href="https://www.instagram.com/wigry_ldw/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary"
-                >
-                  @wigry_ldw
-                </a>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
         <Row className="justify-content-center">
-          <Col md={6} className="d-flex justify-content-center mb-4">
+          <Col md={6} className="mb-3">
+            <h3 className="text-center mb-3">Harcerze</h3>
+            <div className="d-flex justify-content-center">
             <blockquote
               className="instagram-media"
-              data-instgrm-permalink="https://www.instagram.com/8.ldh/"
+              data-instgrm-permalink={ldhPost}
               data-instgrm-captioned
               style={{
                 background: "#FFF",
@@ -74,11 +63,14 @@ const GalleryAlbumPage = () => {
                 width: "100%",
               }}
             ></blockquote>
+            </div>
           </Col>
-          <Col md={6} className="d-flex justify-content-center mb-4">
+          <Col md={6} className="mb-3">
+            <h3 className="text-center mb-3">Wędrownicy</h3>
+            <div className="d-flex justify-content-center">
             <blockquote
               className="instagram-media"
-              data-instgrm-permalink="https://www.instagram.com/wigry_ldw/"
+              data-instgrm-permalink={wigryPost}
               data-instgrm-captioned
               style={{
                 background: "#FFF",
@@ -91,6 +83,7 @@ const GalleryAlbumPage = () => {
                 width: "100%",
               }}
             ></blockquote>
+            </div>
           </Col>
         </Row>
       </Container>

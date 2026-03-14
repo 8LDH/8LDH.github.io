@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../index.css";
-import CarouselComponent from "../components/CarouselComponent";
 import HomeCardComponent from "../components/HomeCardComponent";
+import CarouselComponent from "../components/CarouselComponent";
 import { Container } from "react-bootstrap";
 import ScrollToTop from "../components/ScrollToTop";
 
@@ -15,8 +15,8 @@ function HomePage() {
       <p className="text-center page-hero-subtitle">
         im. Stefana Starzyńskiego
       </p>
-      <Container>
-        <CarouselComponent />
+      <CarouselComponent />
+      <Container className="mb-5">
         <HomeCardComponent />
       </Container>
     </div>
