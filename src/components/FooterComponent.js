@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../images/logo.png";
 import "../styles/FooterComponent.css";
@@ -22,21 +23,17 @@ const FooterComponent = () => {
               <a href="https://www.instagram.com/8.ldh/?hl=pl" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 Instagram
               </a>
-              <a href="https://www.youtube.com/@user-xi7uz4sq7p" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                YouTube
-              </a>
             </div>
           </Col>
 
           <Col md={4}>
             <h5 className="footer-heading">Szybkie Linki</h5>
             <ul className="footer-links">
-              <li><a href="/o-nas">Coś O Nas</a></li>
-
-              <li><a href="/kalendarz">Kalendarz</a></li>
-              <li><a href="/galeria">Galeria</a></li>
-              <li><a href="/dokumenty">Dokumenty</a></li>
-              <li><a href="/kontakty">Kontakty</a></li>
+              <li><Link to="/o-nas">Coś O Nas</Link></li>
+              <li><Link to="/kalendarz">Kalendarz</Link></li>
+              <li><Link to="/galeria">Galeria</Link></li>
+              <li><Link to="/dokumenty">Dokumenty</Link></li>
+              <li><Link to="/kontakty">Kontakty</Link></li>
             </ul>
           </Col>
 
