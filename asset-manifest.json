@@ -1,45 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ebaac20.css",
-    "main.js": "/static/js/main.1b961e79.js",
-    "static/js/496.efc58856.chunk.js": "/static/js/496.efc58856.chunk.js",
-    "static/media/IMG_2116.JPEG": "/static/media/IMG_2116.3e61a2eba3f75471e471.JPEG",
-    "static/media/IMG_2097.JPEG": "/static/media/IMG_2097.3d7f1f4677b125b25121.JPEG",
-    "static/media/IMG_2168.JPEG": "/static/media/IMG_2168.95720551fe2e49078d61.JPEG",
-    "static/media/IMG_2119.JPEG": "/static/media/IMG_2119.b1ca9629627ba0f3651d.JPEG",
-    "static/media/IMG_2188.JPEG": "/static/media/IMG_2188.f2c5b5fde0629d47cdff.JPEG",
-    "static/media/IMG_2065.JPEG": "/static/media/IMG_2065.8dbead15376ca287b18c.JPEG",
-    "static/media/IMG_2267.JPEG": "/static/media/IMG_2267.753bf1fce0b7bad7025f.JPEG",
-    "static/media/IMG_2115.JPEG": "/static/media/IMG_2115.64da94d222ce7bc56391.JPEG",
-    "static/media/IMG_2238.JPEG": "/static/media/IMG_2238.c0aa5a38743e96165f56.JPEG",
-    "static/media/IMG_2165.JPEG": "/static/media/IMG_2165.72d26df4b62d1474228b.JPEG",
-    "static/media/IMG_2184.JPEG": "/static/media/IMG_2184.0c6083e926e3ae03af86.JPEG",
-    "static/media/IMG_2136.JPEG": "/static/media/IMG_2136.19b80246fff1385735c5.JPEG",
-    "static/media/IMG_2067.JPEG": "/static/media/IMG_2067.e8e99327d108baadb322.JPEG",
-    "static/media/IMG_2250.JPEG": "/static/media/IMG_2250.5a650fedff7e721d10d5.JPEG",
-    "static/media/IMG_2254.JPEG": "/static/media/IMG_2254.49057b2c1757d3d1208e.JPEG",
-    "static/media/IMG_2137.JPEG": "/static/media/IMG_2137.5dada0e429f413a56a14.JPEG",
-    "static/media/Krystian.png": "/static/media/Krystian.a533b27963f10bdf6ece.png",
-    "static/media/Wasiuk.jpg": "/static/media/Wasiuk.14df7c24d44e09b47a68.jpg",
-    "static/media/Oliwer.png": "/static/media/Oliwer.3987996a0d1c795bee5b.png",
-    "static/media/Bart.jpg": "/static/media/Bart.640a14a8f9f463a123d2.jpg",
-    "static/media/Szymon.png": "/static/media/Szymon.6de01f93d2e2efc1c860.png",
-    "static/media/Milosz.png": "/static/media/Milosz.2f41bdb6ead7efc6f8c4.png",
-    "static/media/Jan.png": "/static/media/Jan.9e266208afc79f8ded2c.png",
-    "static/media/Jacek.png": "/static/media/Jacek.252fe164b2d2fdddd1ad.png",
-    "static/media/Dawid.png": "/static/media/Dawid.f4e06d9dde14b9010d89.png",
+    "main.css": "/static/css/main.8d74d7a8.css",
+    "main.js": "/static/js/main.de0c2906.js",
+    "static/js/488.b1d707a0.chunk.js": "/static/js/488.b1d707a0.chunk.js",
     "static/media/logo.png": "/static/media/logo.fbf4af2b4f149de1aade.png",
     "static/media/harcownicy1.png": "/static/media/harcownicy1.afb43bbb6f6c417b8031.png",
     "static/media/harcownicy2.png": "/static/media/harcownicy2.5c5a81ff204de037115e.png",
     "static/media/cwik.png": "/static/media/cwik.1976be40281534ae800d.png",
     "static/media/sprawnosci.png": "/static/media/sprawnosci.3ac3deda1b8180ada199.png",
     "index.html": "/index.html",
-    "main.7ebaac20.css.map": "/static/css/main.7ebaac20.css.map",
-    "main.1b961e79.js.map": "/static/js/main.1b961e79.js.map",
-    "496.efc58856.chunk.js.map": "/static/js/496.efc58856.chunk.js.map"
+    "main.8d74d7a8.css.map": "/static/css/main.8d74d7a8.css.map",
+    "main.de0c2906.js.map": "/static/js/main.de0c2906.js.map",
+    "488.b1d707a0.chunk.js.map": "/static/js/488.b1d707a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ebaac20.css",
-    "static/js/main.1b961e79.js"
+    "static/css/main.8d74d7a8.css",
+    "static/js/main.de0c2906.js"
   ]
 }
